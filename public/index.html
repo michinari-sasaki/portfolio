@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>React App</title>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <a href="#profile">
+          <h1><span>M</span><span>Portfolio</span></h1>
+        </a>
+        <ul>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#skill">SKILL</a></li>
+          <li><a href="#works">WORKS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="profile" id="profile">
+      <div class="inner">
+        <ul class="profile__name">
+          <li>
+            <img src="%PUBLIC_URL%/img/me.png" alt="" />
+          </li>
+          <li>
+            <p>Front-End Engineer</p>
+            <p>SASAKI MICHINARI</p>
+            <p>
+              <a href="https://github.com/michinari-sasaki"
+                >GitHub: @michinari-sasaki</a
+              >
+            </p>
+          </li>
+        </ul>
+        <div class="profile__text">
+          <p>
+            はじめまして。佐々木道成と申します。<br />
+            東京都在住のフロントエンドエンジニアです。<br />
+            言語は特にPHPとJSが好きです。<br />
+            マークアップの他にもWEBデザインや<br />
+            動画制作、印刷などに携わってきました。<br />
+          </p>
+          <dl>
+            <dt>趣味</dt>
+            <dd>
+              ギター、絵を描くこと、動画制作、ボカロ<br />フロントの新技術に悶えながら勉強すること
+            </dd>
+          </dl>
+        </div>
+      </div>
+    </div>
+
+    <section class="skill" id="skill">
+      <div class="inner">
+        <h2 class="heading">SKILL</h2>
+        <dl>
+          <dt>言語</dt>
+          <dd>
+            HTML5<br />
+            CSS3<br />
+            JavaScript<br />
+            Jquery<br />
+            PHP<br />
+            SQL<br />
+            Vue.js<br />
+            React<br />
+            Ruby(Ruby on Rails)<br />
+          </dd>
+        </dl>
+        <dl>
+          <dt>開発環境</dt>
+          <dd>
+            Docker<br />
+            Git<br />
+            Slack<br />
+            VScode<br />
+          </dd>
+        </dl>
+        <dl>
+          <dt>その他</dt>
+          <dd>
+            WordPress<br />
+            Gulp<br />
+            PostCSS<br />
+            WebPack<br />
+            TypeScript<br />
+            Reduct<br />
+          </dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <div class="inner">
+        <h2 class="heading">WORKS</h2>
+        <p class="works__notice">ホバーで詳細が閲覧できます。</p>
+        <p class="works__notice">認証 ID:gmoam PW:test</p>
+        <!-- coding ▼▼▼ -->
+        <h3 class="heading--sub">Coding<span>コーディングのお仕事</span></h3>
+        <ul class="works__list">
+          <li>
+            <div class="works__list__content">
+              <h4>indeed</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>indeed採用サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>２名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-01.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>オーナー募集サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>2名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://www.sej.co.jp/owner/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-02.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>ミニストップ</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>オーナー募集サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://www.ministop-fc.com/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-03.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>川崎競馬</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>本サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>4名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://www.kawasaki-keiba.jp/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-04.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>ブラックサンダー</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>ファンサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>２名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://blackthunder.jp/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-05.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>キョードー東京</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>シネオケ特別サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 2週間</dd>
+              </dl>
+              <a href="https://cineoke.info/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-06.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>GMO アドマーケティング</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>自社コンテンツポータルサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>２名 / 1ヶ月</dd>
+              </dl>
+              <a href="http://gmo-am.jp/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-07.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>GMO TAXEL</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>自社プロダクトサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / ２週間</dd>
+              </dl>
+              <a href="https://taxel.media/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-08.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>GMO NIKKO</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>採用サイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / ２週間</dd>
+              </dl>
+              <a href="https://www.koukoku.jp/recruit/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-09.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>チャージスポット</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/spot/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-16.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>デザインストック</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>デザイン共有ツール</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 2週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/stock/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-11.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>ザオバ</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>WordPress HTML5 CSS3 PHP JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>コーポレートサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1ヶ月</dd>
+              </dl>
+              <a href="https://zaoba.co.jp/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-13.png" alt="" />
+          </li>
+        </ul>
+
+        <!-- Design ▼▼▼ -->
+        <h3 class="heading--sub">Design<span>デザインのお仕事</span></h3>
+        <ul class="works__list">
+          <li>
+            <div class="works__list__content">
+              <h4>千住金属</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>リクルートの採用ページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/senju/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-10.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>KTX</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>デザイン事務所のページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/ktx/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-14.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>WOWOW シネフィル</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a
+                href="http://seisaku.gmo-am.jp/test/imagica-lp/"
+                target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-15.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>スカパー ディズニーチャンネル</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a
+                href="http://seisaku.gmo-am.jp/test/disney_1806/"
+                target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-17.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>ヘルプマン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンページ</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/helpman/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-18.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>電子書籍サイトランキング</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5 CSS3 JS</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 2週間</dd>
+              </dl>
+              <a href="http://seisaku.gmo-am.jp/test/hikaku/" target="_blank"
+                >サイトを見る</a
+              >
+            </div>
+            <img src="%PUBLIC_URL%/img/tmb-19.png" alt="" />
+          </li>
+        </ul>
+
+        <!-- Movie ▼▼▼ -->
+        <h3 class="heading--sub">Movie<span>動画のお仕事</span></h3>
+        <ul class="works__list">
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>AfterEffects PremierePro</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="">動画を見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/movie-01.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+        </ul>
+
+        <!-- Other ▼▼▼ -->
+        <h3 class="heading--sub">Other<span>学習のために作ったもの</span></h3>
+        <ul class="works__list">
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>AfterEffects PremierePro</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>キャンペーンサイト</dd>
+              </dl>
+              <dl>
+                <dt>人数/工数</dt>
+                <dd>1名 / 1週間</dd>
+              </dl>
+              <a href="">動画を見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/movie-01.png" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+          <li>
+            <div class="works__list__content">
+              <h4>セブンイレブン</h4>
+              <dl>
+                <dt>使用技術</dt>
+                <dd>HTML5/CSS3（10年） JavaScript（10年） Jquery（10年）</dd>
+              </dl>
+              <dl>
+                <dt>説明</dt>
+                <dd>こんなサイトです。ダミーダミー</dd>
+              </dl>
+              <a href="https://jp.indeed.jobs/" target="_blank">サイトを見る</a>
+            </div>
+            <img src="%PUBLIC_URL%/img/dammy.jpg" alt="" />
+          </li>
+        </ul>
+        <!-- coding ▲▲▲ -->
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <h2 class="heading">CONTACT</h2>
+      <p class="footer__mail">bdttb5369@gmail.com</p>
+    </footer>
+
+    <div id="root"></div>
+  </body>
+</html>
