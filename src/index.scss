@@ -207,7 +207,7 @@ header {
     font-size: 2.4rem;
     @include font-robo;
     &::first-letter {
-      color: $mint;
+      color: #9ee5cf;
     }
     span {
       font-size: 1.2rem;
@@ -264,7 +264,9 @@ header {
 
 //works
 .works {
+  padding: 80px 0 120px;
   margin-top: 120px;
+  background: #eef9f6;
   .inner {
     @media screen and (max-width: 768px) {
       padding: 0 16px;
@@ -272,7 +274,7 @@ header {
   }
   &__notice {
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
   }
   &__list {
     display: flex;
@@ -403,9 +405,8 @@ header {
 
 //footer
 .footer {
-  margin-top: 160px;
   padding: 80px 0;
-  background: #f5f5f5;
+  background: $white;
   text-align: center;
   @media screen and (max-width: 768px) {
     margin-top: 80px;
