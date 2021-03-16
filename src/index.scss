@@ -15,6 +15,7 @@ html {
     "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   font-size: 10px;
   overflow-x: hidden;
+  //scroll-behavior: smooth;
 }
 body {
   font-size: 10px;
@@ -43,6 +44,11 @@ img {
 .inner {
   max-width: 880px;
   margin: 0 auto;
+}
+.anchor {
+  display: block;
+  margin-top: -100px;
+  padding-top: 100px;
 }
 
 //header
