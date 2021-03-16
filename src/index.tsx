@@ -414,9 +414,9 @@ class Works extends React.Component{
                 <dd>1名 / 2日</dd>
               </dl>
               <a
-                href="https://calm-eyrie-58708.herokuapp.com/"
+                href="https://github.com/michinari-sasaki/portfolio"
                 rel="noreferrer" target="_blank"
-                >サイトを見る</a
+                >GitHub</a
               >
             </div>
             <img src={"../img/mysite-02.png"}  alt="" />
