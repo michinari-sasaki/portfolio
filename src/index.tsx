@@ -436,7 +436,7 @@ class Works extends React.Component{
                 <dt>人数/工数</dt>
                 <dd>1名 / 2日</dd>
               </dl>
-              {/* <a href="https://jp.indeed.jobs/" rel="noreferrer" target="_blank">サイトを見る</a> */}
+              <a href="https://github.com/michinari-sasaki/tweet_app-" rel="noreferrer" target="_blank">GitHub</a>
             </div>
             <img src={"../img/mysite-03.png"}  alt="" />
           </li>
@@ -614,7 +614,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/6vLeXor_dg8" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -635,7 +635,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/I63-MtNrmYk" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -656,7 +656,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/sYdWTHrlYUU" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -677,7 +677,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/lpehM9jE7K0">動画を見る</a>
             </div>
@@ -696,7 +696,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/OEzMM19fMH0" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -717,7 +717,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/nmpsFAsPTbk" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -738,7 +738,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/zwd3py0So1M" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -759,7 +759,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/moG0nM-vtCI" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -780,7 +780,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/B89Dj3_bT9U" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -801,7 +801,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/OzNli7RA5aY" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -822,7 +822,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/-Zp8PzKt5Rs" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -843,7 +843,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/BMew1LowIQU" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -864,7 +864,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/MFy2um9P86g" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -885,7 +885,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/jXL_OvUvcbQ" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -906,7 +906,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/GBkgYcVHoYg" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -927,7 +927,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/bNi2xZwCQNU" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -948,7 +948,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/CobSuj4Ay5Y" rel="noreferrer" target="_blank"
                 >動画を見る</a
@@ -969,7 +969,7 @@ class Works extends React.Component{
               </dl>
               <dl>
                 <dt>人数/工数</dt>
-                <dd>1名 / 1週間</dd>
+                <dd>1名 / 2週間</dd>
               </dl>
               <a href="https://youtu.be/3YrIQJQOhgs" rel="noreferrer" target="_blank"
                 >動画を見る</a
