@@ -59,7 +59,7 @@ class Fv extends React.Component{
               はじめまして。佐々木道成と申します。<br />
               東京都在住のフロントエンドエンジニアです。<br />
               言語は特にPHPとJSが好きです。<br />
-              マークアップの他にもWEBデザインや<br />
+              社内ツールの制作やマークアップの他にもWEBデザインや<br />
               動画制作、印刷などに携わってきました。<br />
             </p>
             <dl>
@@ -102,19 +102,19 @@ class Skill extends React.Component{
                 <dd>
                   Docker<br />
                   Git<br />
-                  Slack<br />
                   VScode<br />
+                  Gulp<br />
                 </dd>
               </dl>
               <dl>
                 <dt>その他</dt>
                 <dd>
                   WordPress<br />
-                  Gulp<br />
                   PostCSS<br />
                   WebPack<br />
                   TypeScript<br />
                   Heroku<br />
+                  Slack<br />
                   {/* Reduct<br />
                   Cloud9<br /> */}
                 </dd>
